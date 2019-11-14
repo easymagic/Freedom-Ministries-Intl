@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="11dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:gravity="center"
+                android:text="Make Donation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <View
+                android:background="#e93d77"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+
+
+            <EditText
+                android:hint="Card - Number"
+                android:inputType="number"
+                android:id="@+id/card_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <EditText
+                android:hint="Card - Expiry Month"
+                android:inputType="number"
+                android:id="@+id/card_expiry_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="Card - Expiry Year"
+                android:id="@+id/card_expiry_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="Card - Cvv"
+                android:id="@+id/card_cvv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:hint="Offering , Tithe , Donation"
+                android:id="@+id/reason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="Amount"
+                android:id="@+id/card_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <EditText
+                android:inputType="textEmailAddress"
+                android:hint="E-mail Address"
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:background="#e93d77"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <Button
+                android:textColor="#ffffff"
+                android:background="#e93d77"
+                android:id="@+id/btn_do_payment"
+                android:text="Make Payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
